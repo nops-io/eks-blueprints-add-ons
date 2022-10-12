@@ -1,0 +1,30 @@
+apiVersion: v2
+name: nops-k8s-agent
+description: A Helm chart for installing nops-k8s-agent
+
+# Application charts are a collection of templates that can be packaged into versioned archives
+# to be deployed.
+
+type: application
+
+# The chart version. This version number should be incremented each time you make changes
+# to the chart and its templates, including the app version.
+#
+#
+version: 0.1.6
+# Version number of the application being deployed. This version number should be
+# incremented each time you make changes to the application.
+
+appVersion: "1.17.4"
+
+
+
+# This is the version number of the application being deployed. This version number should be
+# incremented each time you make changes to the application. Versions are not expected to
+# follow Semantic Versioning. They should reflect the version the application is using.
+# It is recommended to use it with quotes.
+
+dependencies:
+- name: nops-k8s-agent
+  version: ""
+  repository: https://nops-io.github.io/nops-k8s-agent
