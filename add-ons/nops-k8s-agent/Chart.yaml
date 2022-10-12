@@ -26,5 +26,5 @@ appVersion: "1.17.4"
 
 dependencies:
 - name: nops-k8s-agent
-  version: ""
+  version: "0.1.6"
   repository: https://nops-io.github.io/nops-k8s-agent
