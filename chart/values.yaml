@@ -51,6 +51,11 @@ certManager:
   enable: false
   serviceAccountName:
 
+# nops agent Values
+nopsAgent:
+  enable: false
+  serviceAccountName:
+
 # Cert Manager CSI Driver Values
 certManagerCsiDriver:
   enable: false
